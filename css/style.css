@@ -80,3 +80,13 @@ ul ul {
 ul ul li {
     margin-left: 20px; /* Indent nested list items */
 }
+
+a {
+    color: #39ff14; /* bright green color for links */
+    text-decoration: none; /* remove underline */
+    transition: color 0.3s ease; /* smooth color transition on hover */
+}
+
+a:hover {
+    color: #00ff00; /* brighter green on hover */
+}
