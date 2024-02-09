@@ -20,6 +20,12 @@ h1 {
     color: #00ff95;
 }
 
+
+h2 {
+    text-align: center;
+    color: #1eff00;
+}
+
 #audioPlayer {
     width: 100%;
     margin-bottom: 20px;
