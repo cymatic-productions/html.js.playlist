@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cymatic Productions - {{page.title}}</title>
-    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
 <body>
     <div class="container">
@@ -14,12 +14,12 @@
         <div id="playlist-list">
             <ul>
                 {% for playlist in  page.playlists %}
-                <li><a href="./playlists/{{playlist}}.html">{{playlist}}</a></li>
+                <li><a href="/playlists/{{playlist}}.html">{{playlist}}</a></li>
                 {% endfor %}
             </ul>
         </div>
     </div>
-    <script src="../js/main/service.js"></script>
+    <script src="./js/main/service.js"></script>
 </body>
 </html>
 
