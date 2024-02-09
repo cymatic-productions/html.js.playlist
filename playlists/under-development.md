@@ -2,13 +2,13 @@
 layout: playlist
 title: Under Development
 songs: [
+    internet-vibes,
     simple-phonk,
-    sorry-phonk,
     bass-and-piano,
     damp,
-    candy-rain,
-    internet-vibes,
+    sorry-phonk,    
     kirby-one,
-    mac-guitar
+    mac-guitar,
+    candy-rain
 ]
 ---
