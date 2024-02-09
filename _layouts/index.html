@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cymatic Productions - {{page.title}}</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+    <div class="container">
+
+        <h1>Cymatic Productions</h1>
+        <h2>{{page.title}}</h2>
+        <div id="playlist-list">
+            <ul>
+              <li><a href="./playlists/3-piece.html">3-piece</a></li>          
+            {% for playlist in  page.playlists %}
+            <li><a href="./playlists/{{playlist}}.html">{{playlist}}</a></li>
+            {% endfor %}
+        </div>
+    </div>
+    <script src="../js/main/service.js"></script>
+</body>
+</html>
+
