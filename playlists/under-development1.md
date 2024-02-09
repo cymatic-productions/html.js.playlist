@@ -6,9 +6,6 @@ songs: [
     simple-phonk,
     bass-and-piano,
     damp,
-    sorry-phonk,    
-    mac-guitar,
-    kirby-one,
-    candy-rain
+    sorry-phonk
 ]
 ---
