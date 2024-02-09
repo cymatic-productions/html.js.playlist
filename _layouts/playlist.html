@@ -1,16 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cymatic Productions - {{page.title}}</title>
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/style.css">
-</head>
+{% include default-header.html %}
+
 <body>
     <div class="container">
-
-        <h1>Cymatic Productions</h1>
-        <h2>{{page.title}}</h2>
         <center><audio id="audioPlayer" controls></audio></center>
         <div class="playlist" id="playlist">
             {% for song in  page.songs %}
@@ -18,7 +9,4 @@
             {% endfor %}
         </div>
     </div>
-    <script src="{{ site.baseurl }}/js/main/service.js"></script>
 </body>
-</html>
-
