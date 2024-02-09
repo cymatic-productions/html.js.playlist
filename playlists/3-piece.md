@@ -1,5 +1,9 @@
 ---
 layout: playlist
 title: 3-Piece
-songs: [in-this-rain, iTriumph, bruce-brass]
+songs: [
+    in-this-rain,
+    iTriumph,
+    bruce-brass
+]
 ---
