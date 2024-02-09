@@ -13,10 +13,10 @@
         <h2>{{page.title}}</h2>
         <div id="playlist-list">
             <ul>
-              <li><a href="./playlists/3-piece.html">3-piece</a></li>          
-            {% for playlist in  page.playlists %}
-            <li><a href="./playlists/{{playlist}}.html">{{playlist}}</a></li>
-            {% endfor %}
+                {% for playlist in  page.playlists %}
+                <li><a href="./playlists/{{playlist}}.html">{{playlist}}</a></li>
+                {% endfor %}
+            </ul>
         </div>
     </div>
     <script src="../js/main/service.js"></script>
