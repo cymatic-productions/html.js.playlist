@@ -55,3 +55,28 @@ button:hover {
 button:focus {
     outline: none;
 }
+
+/* Style for unordered list */
+ul {
+    list-style-type: disc; /* Bullet style */
+    margin-bottom: 20px; /* Add space between lists */
+}
+
+/* Style for list items */
+li {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 5px; /* Add space between list items */
+    color: #333; /* Text color */
+}
+
+/* Nested list style */
+ul ul {
+    list-style-type: circle; /* Nested bullet style */
+    margin-top: 5px; /* Add space between nested lists */
+}
+
+/* Example of additional styles for nested list items */
+ul ul li {
+    margin-left: 20px; /* Indent nested list items */
+}
