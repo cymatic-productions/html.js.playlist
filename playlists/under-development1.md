@@ -7,8 +7,8 @@ songs: [
     bass-and-piano,
     damp,
     sorry-phonk,    
-    kirby-one,
     mac-guitar,
+    kirby-one,
     candy-rain
 ]
 ---
