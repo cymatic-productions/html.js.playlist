@@ -6,6 +6,7 @@ songs: [
     simple-phonk,
     bass-and-piano,
     damp,
+    humble,
     sorry-phonk
 ]
 ---
