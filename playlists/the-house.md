@@ -2,7 +2,7 @@
 layout: playlist
 title: The House
 songs: [
-    the-house,
+    bubble-house,
     synth-city
 ]
 ---
