@@ -1,6 +1,6 @@
 ---
 layout: playlist
-title: The Algorhythm
+title: The Algorhythm - The Experiment
 songs: [
     in-traffic,
     baby-river,

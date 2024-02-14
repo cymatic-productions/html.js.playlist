@@ -1,6 +1,6 @@
 ---
 layout: playlist
-title: Under Development 2
+title: The Algorithm 3 - The Vibe
 songs: [
     mac-guitar,
     kirby-one,

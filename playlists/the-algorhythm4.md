@@ -1,6 +1,6 @@
 ---
 layout: playlist
-title: The House
+title: The Algorithm 4 - The House
 songs: [
     bubble-house,
     synth-city

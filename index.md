@@ -2,10 +2,11 @@
 layout: index
 title: List of Playlists
 playlists: [
-    3-piece,
-    the-algorhythm,
-    under-development1,
-    under-development2,
-    the-house
+    three-piece1,
+    three-piece2,
+    the-algorhythm1,
+    the-algorhythm2,
+    the-algorhythm3,
+    the-algorhythm4,
 ]
 ---
