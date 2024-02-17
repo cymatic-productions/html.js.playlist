@@ -1,6 +1,6 @@
 ---
 layout: playlist
-title: "2024 - The Algorhythm 2: The Prototype"
+title: "The Algorhythm 2: The Prototype"
 startDate: 2024
 endDate: under development
 songs: [
