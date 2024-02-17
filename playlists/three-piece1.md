@@ -1,6 +1,6 @@
 ---
 layout: playlist
-title: 3-Piece
+title: Three Piece 1
 songs: [
     in-this-rain,
     iTriumph,

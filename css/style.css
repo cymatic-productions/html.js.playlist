@@ -28,7 +28,7 @@ h1 {
 
 h2 {
     text-align: center;
-    color: #1eff00;
+    color: #00ff9d;
 }
 
 #audioPlayer {
@@ -63,8 +63,12 @@ button:focus {
 
 /* Style for unordered list */
 ul {
-    list-style-type: disc; /* Bullet style */
+    list-style-type: decimal; /* Bullet style */
     margin-bottom: 20px; /* Add space between lists */
+}
+
+li::marker {
+    color: rgb(0, 242, 255);
 }
 
 /* Style for list items */

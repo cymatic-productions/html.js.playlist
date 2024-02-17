@@ -1,6 +1,6 @@
 ---
 layout: playlist
-title: The Algorithm 2 - The Prototype
+title: The Algorhythm 2 - The Prototype
 songs: [
     internet-vibes,
     simple-phonk,
