@@ -7,7 +7,8 @@ songs: [
     bass-and-piano,
     damp,
     humble,
-    sorry-phonk,
-    cymaprodz
+    cymaprodz,
+    the-upset,
+    sorry-phonk,    
 ]
 ---
