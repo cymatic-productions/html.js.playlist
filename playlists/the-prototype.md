@@ -1,14 +1,11 @@
 ---
 layout: playlist
-title: The Algorhythm 2 - The Prototype
+title: "The Algorhythm 2: The Prototype"
 songs: [
-    internet-vibes,
-    simple-phonk,
-    bass-and-piano,
     damp,
+    bass-and-piano,    
     humble,
     cymaprodz,
-    the-upset,
-    sorry-phonk,    
+    the-upset
 ]
 ---
