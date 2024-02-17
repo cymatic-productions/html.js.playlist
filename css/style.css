@@ -28,7 +28,12 @@ h1 {
 
 h2 {
     text-align: center;
-    color: #00ff9d;
+    color: #22c7b9;
+}
+
+h3 {
+    text-align: center;
+    color: #007ba1;
 }
 
 #audioPlayer {

@@ -1,6 +1,8 @@
 ---
 layout: legacy-playlist
-title: "2009 - The Algorhythm 0: Origin"
+title: "The Algorhythm 0: Origin"
+startDate: 2007
+endDate: 2009
 songs: [
     instrumental1-elevator,
     instrumental2-reversed,
