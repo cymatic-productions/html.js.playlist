@@ -8,6 +8,6 @@ songs: [
     bass-and-piano,    
     humble,
     cymaprodz,
-    the-upset
+    vinyl-trap    
 ]
 ---

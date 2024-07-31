@@ -5,6 +5,7 @@ startDate: 2024
 endDate: under development
 songs: [
     idwk,
-    ghosts-of-failure
+    ghosts-of-failure,
+    the-upset
 ]
 ---
