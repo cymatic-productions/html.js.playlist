@@ -9,6 +9,6 @@ songs: [
     humble,
     cymaprodz,
     vinyl-trap,
-    soul-rhodes    
+    soul-rhodes
 ]
 ---

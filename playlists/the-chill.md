@@ -6,6 +6,7 @@ endDate: under development
 songs: [
     mac-guitar,
     kirby-one,
-    candy-rain
+    candy-rain,
+    scars
 ]
 ---
