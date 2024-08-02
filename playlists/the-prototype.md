@@ -8,6 +8,7 @@ songs: [
     bass-and-piano,    
     humble,
     cymaprodz,
-    vinyl-trap    
+    vinyl-trap,
+    soul-rhodes    
 ]
 ---
