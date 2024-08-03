@@ -1,7 +1,7 @@
 ---
 layout: index
 title: List of Playlists
-playlists: [
+playlists: [    
     the-origin,
     the-experiment,
     the-prototype,
@@ -9,6 +9,7 @@ playlists: [
     the-house,
     three-piece1,
     three-piece2,
-    under-development
+    under-development,
+    recent-releases
 ]
 ---

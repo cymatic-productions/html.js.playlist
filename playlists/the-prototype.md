@@ -7,8 +7,7 @@ songs: [
     damp,
     bass-and-piano,    
     humble,
-    cymaprodz,
     codes-vocal,
-    vinyl-trap
+    cymaprodz
 ]
 ---
