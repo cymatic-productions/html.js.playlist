@@ -7,6 +7,7 @@ songs: [
     vinyl-trap,
     scars,
     soul-rhodes,
-    codes-vocal
+    codes-vocal,
+    hey
 ]
 ---
