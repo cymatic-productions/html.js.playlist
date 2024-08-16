@@ -8,6 +8,7 @@ songs: [
     scars,
     soul-rhodes,
     codes-vocal,
-    hey
+    hey,
+    worlds-collide
 ]
 ---
