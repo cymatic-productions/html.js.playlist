@@ -5,6 +5,7 @@ startDate: 2024
 endDate: under development
 songs: [
     mac-guitar,
+    hookdrop,
     kirby-one,
     candy-rain,
     scars
