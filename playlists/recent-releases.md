@@ -9,6 +9,7 @@ songs: [
     soul-rhodes,
     codes-vocal,
     hey,
-    worlds-collide
+    worlds-collide,
+    hookdrop
 ]
 ---
