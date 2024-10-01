@@ -10,6 +10,7 @@ songs: [
     codes-vocal,
     hey,
     worlds-collide,
-    hookdrop
+    hookdrop,
+    days-like-that
 ]
 ---
