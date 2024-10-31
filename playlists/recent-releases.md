@@ -11,6 +11,7 @@ songs: [
     hey,
     worlds-collide,
     hookdrop,
-    days-like-that
+    days-like-that,
+    blurry-eternity
 ]
 ---
