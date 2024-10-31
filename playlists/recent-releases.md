@@ -12,6 +12,10 @@ songs: [
     worlds-collide,
     hookdrop,
     days-like-that,
-    blurry-eternity
+    blurry-eternity,
+    eternity,
+    desert-dream,
+    all-i-ever-want
+
 ]
 ---
