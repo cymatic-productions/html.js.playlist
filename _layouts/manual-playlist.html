@@ -1,0 +1,14 @@
+{% include playlist-header.html %}
+
+<body>
+    <div class="container">
+        <center><audio id="audioPlayer" controls></audio></center>
+        <div class="playlist" id="playlist">
+            {% for songUrl in page.songs %}
+            {% assign mp3Name = songUrl | split: '/' | last %}
+            <button onclick="play('{{ songUrl }}')">{{ mp3Name | split: '.' | first }}</button>
+            {% endfor %}
+        </div>
+    </div>
+    <p>Click <a href="../">here</a> to go to the playlist dashboard</p>
+</body>

@@ -5,11 +5,12 @@ playlists: [
     the-origin,
     the-experiment,
     the-prototype,
+    the-product,
     the-chill,
     the-house,
     three-piece1,
     three-piece2,
     under-development,
-    recent-releases
+    recent-releases 
 ]
 ---
