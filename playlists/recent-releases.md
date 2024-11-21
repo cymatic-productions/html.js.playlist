@@ -16,6 +16,5 @@ songs: [
     eternity,
     desert-dream,
     all-i-ever-want
-
 ]
 ---
