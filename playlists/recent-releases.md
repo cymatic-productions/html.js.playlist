@@ -15,6 +15,7 @@ songs: [
     blurry-eternity,
     eternity,
     desert-dream,
-    all-i-ever-want
+    all-i-ever-want,
+    empty-casino
 ]
 ---
