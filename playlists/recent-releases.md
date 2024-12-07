@@ -16,6 +16,8 @@ songs: [
     eternity,
     desert-dream,
     all-i-ever-want,
-    empty-casino
+    empty-casino,
+    baby-defendant,
+    loyal-eclipse
 ]
 ---
