@@ -6,7 +6,6 @@ endDate: under development
 songs: [
     vinyl-trap,
     mac-guitar,
-    hookdrop,
     kirby-one,
     candy-rain,
     scars,
