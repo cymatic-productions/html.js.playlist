@@ -5,11 +5,16 @@ startDate: 2024
 endDate: under development
 songs: [
     vinyl-trap,
+    mac-guitar,
+    hookdrop,
+    kirby-one,
+    candy-rain,
     scars,
+    bubble-house,
     soul-rhodes,
     codes-vocal,
     hey,
-    worlds-collide,
+    ghosts-of-failure,
     hookdrop,
     days-like-that,
     blurry-eternity,
@@ -18,6 +23,5 @@ songs: [
     all-i-ever-want,
     empty-casino,
     baby-defendant,
-    loyal-eclipse
 ]
 ---

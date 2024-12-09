@@ -4,7 +4,7 @@
     <div class="container">
         <div id="playlist-list">
             <ul>
-                {% for playlist in  page.playlists %}
+                {% for playlist in page.playlists %}
                 <li><a href="{{ site.baseurl }}/playlists/{{playlist}}.html">{{playlist}}</a></li>
                 {% endfor %}
             </ul>
