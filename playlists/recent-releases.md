@@ -15,6 +15,7 @@ songs: [
     hey,
     eternity,
     blurry-eternity,
+    rose-colored-doubt,
     all-i-ever-want,
     desert-dream,
     mac-guitar,
