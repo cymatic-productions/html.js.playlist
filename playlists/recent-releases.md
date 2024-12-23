@@ -19,6 +19,7 @@ songs: [
     rose-colored-doubt,
     loyal-orchid,
     all-i-ever-want,
+    buried-escalade,
     desert-dream,
     mac-guitar,
     kirby-one,
