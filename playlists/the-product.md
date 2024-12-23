@@ -1,6 +1,6 @@
 ---
 layout: manual-playlist
-title: "The Algorhythm 1: The Experiment"
+title: "The Algorhythm 3: The Product"
 startDate: 2020
 endDate: 2023
 songs: [

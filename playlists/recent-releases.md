@@ -15,6 +15,7 @@ songs: [
     hey,
     eternity,
     blurry-eternity,
+    i-need-you,
     rose-colored-doubt,
     all-i-ever-want,
     desert-dream,
