@@ -17,6 +17,7 @@ songs: [
     blurry-eternity,
     i-need-you,
     rose-colored-doubt,
+    loyal-orchid,
     all-i-ever-want,
     desert-dream,
     mac-guitar,
