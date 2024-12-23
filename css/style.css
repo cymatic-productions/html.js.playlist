@@ -59,7 +59,7 @@ button {
 }
 
 button:hover {
-    background-color: #0092b3;
+    background-color:  rgba(0, 255, 153, 0.679);
 }
 
 button:focus {
@@ -82,6 +82,10 @@ li {
     line-height: 1.6;
     margin-bottom: 5px; /* Add space between list items */
     color: #333; /* Text color */
+}
+
+.playing {
+    background-color: #0092b3;
 }
 
 /* Nested list style */
