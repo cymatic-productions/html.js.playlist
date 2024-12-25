@@ -5,7 +5,8 @@ playlists: [
     # the-origin,        
     the-experiment,
     the-prototype,
-    the-product,
+    # the-product,
+    the-order,
     recent-releases,
     # under-development
 ]
