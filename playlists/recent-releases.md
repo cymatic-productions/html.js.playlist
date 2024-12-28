@@ -27,5 +27,7 @@ songs: [
     scars,
     vinyl-trap,
     soul-rhodes,
+    lazy-ambience,
+    dreams-of-then
 ]
 ---
