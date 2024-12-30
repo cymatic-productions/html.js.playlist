@@ -28,6 +28,7 @@ songs: [
     vinyl-trap,
     soul-rhodes,
     lazy-ambience,
-    dreams-of-then
+    dreams-of-then,
+    astro-bells,
 ]
 ---
