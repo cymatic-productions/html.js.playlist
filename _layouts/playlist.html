@@ -2,14 +2,16 @@
 
 <body>
     <div class="container">
-        <center><audio id="audioPlayer" controls></audio></center>
+        <center>
+            <video id="videoPlayer" controls style="display: none;"></video>
+            <audio id="audioPlayer" controls></audio>
+        </center>
         <div class="playlist" id="playlist">
-            {% for song in  page.songs %}
+            {% for song in page.songs %}
             <button id="song-{{ forloop.index0 }}" onclick="playCymatic('{{song}}')">{{song}}</button>
             {% endfor %}
         </div>
     </div>
     <p>Click <a href="../">here</a> to go to the playlist dashboard</p>
-    <!-- Invoke the setupAutoplay function -->
     {% include default-footer.html %}
 </body>

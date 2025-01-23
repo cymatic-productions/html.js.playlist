@@ -1,7 +1,25 @@
+:root {
+    --background-color: #0e1116;
+    --text-color: #ffffff;
+    --container-bg-color: #1e2228;
+    --box-shadow-color: rgba(0, 0, 0, 0.5);
+    --h1-color: #00ff95;
+    --h2-color: #22c7b9;
+    --h3-color: #007ba1;
+    --button-bg-color: #007c42;
+    --button-hover-color: rgba(0, 255, 153, 0.679);
+    --list-marker-color: rgb(0, 242, 255);
+    --list-text-color: #333;
+    --playing-bg-color: #0092b3;
+    --link-color: #39ff14;
+    --link-hover-color: #00ff00;
+    --video-border-color: #22c7b9;
+}
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #0e1116;
-    color: #fff;
+    background-color: var(--background-color);
+    color: var(--text-color);
     margin: 0;
     padding: 0;
 }
@@ -10,30 +28,29 @@ body {
     max-width: 600px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #1e2228;
+    background-color: var(--container-bg-color);
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px var(--box-shadow-color);
 }
 
 p {
     text-align: center;
-    color: #ffffff;
+    color: var(--text-color);
 }
 
 h1 {
     text-align: center;
-    color: #00ff95;
+    color: var(--h1-color);
 }
-
 
 h2 {
     text-align: center;
-    color: #22c7b9;
+    color: var(--h2-color);
 }
 
 h3 {
     text-align: center;
-    color: #007ba1;
+    color: var(--h3-color);
 }
 
 #audioPlayer {
@@ -50,8 +67,8 @@ h3 {
 button {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #007c42;
-    color: #fff;
+    background-color: var(--button-bg-color);
+    color: var(--text-color);
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -59,52 +76,58 @@ button {
 }
 
 button:hover {
-    background-color:  rgba(0, 255, 153, 0.679);
+    background-color: var(--button-hover-color);
 }
 
 button:focus {
     outline: none;
 }
 
-/* Style for unordered list */
 ul {
     list-style-type: decimal; /* Bullet style */
     margin-bottom: 20px; /* Add space between lists */
 }
 
 li::marker {
-    color: rgb(0, 242, 255);
+    color: var(--list-marker-color);
 }
 
-/* Style for list items */
 li {
     font-size: 16px;
     line-height: 1.6;
     margin-bottom: 5px; /* Add space between list items */
-    color: #333; /* Text color */
+    color: var(--list-text-color); /* Text color */
 }
 
 .playing {
-    background-color: #0092b3;
+    background-color: var(--playing-bg-color);
 }
 
-/* Nested list style */
 ul ul {
     list-style-type: circle; /* Nested bullet style */
     margin-top: 5px; /* Add space between nested lists */
 }
 
-/* Example of additional styles for nested list items */
 ul ul li {
     margin-left: 20px; /* Indent nested list items */
 }
 
 a {
-    color: #39ff14; /* bright green color for links */
-    text-decoration: none; /* remove underline */
-    transition: color 0.3s ease; /* smooth color transition on hover */
+    color: var(--link-color); /* Link color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
 }
 
 a:hover {
-    color: #00ff00; /* brighter green on hover */
+    color: var(--link-hover-color); /* Brighter link color on hover */
+}
+
+#videoPlayer {
+    width: 100%; /* Make the video player take the full width of its container */
+    max-width: 600px; /* Limit the maximum width to match the container */
+    height: auto; /* Maintain the aspect ratio of the video */
+    margin-bottom: 20px; /* Add spacing below the video player */
+    border: 2px solid var(--video-border-color); /* Add a border for better visibility */
+    border-radius: 8px; /* Match the rounded corners of the container */
+    box-shadow: 0 4px 8px var(--box-shadow-color); /* Add a shadow for a polished look */
 }
