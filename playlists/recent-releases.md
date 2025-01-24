@@ -32,5 +32,6 @@ songs: [
     # astro-bells,
     what-you-do,
     summer-snare,
+    # the-opera,
 ]
 ---
