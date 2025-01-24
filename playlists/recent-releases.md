@@ -31,5 +31,6 @@ songs: [
     dreams-of-then,
     # astro-bells,
     what-you-do,
+    summer-snare,
 ]
 ---

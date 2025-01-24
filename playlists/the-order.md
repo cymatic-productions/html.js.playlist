@@ -11,6 +11,7 @@ songs: [
     codes-vocal,
     humble,
     cymaprodz,
+    summer-snare,
     rose-colored-doubt,
     loyal-orchid,
     i-need-you,
