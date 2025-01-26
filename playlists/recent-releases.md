@@ -32,6 +32,8 @@ songs: [
     # astro-bells,
     what-you-do,
     summer-snare,
+    close-to-damaged,
+    they-dont-even-know,
     # the-opera,
 ]
 ---
