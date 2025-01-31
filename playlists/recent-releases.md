@@ -34,6 +34,7 @@ songs: [
     summer-snare,
     close-to-damaged,
     they-dont-even-know,
+    first-thirty,
     # the-opera,
 ]
 ---
