@@ -16,13 +16,14 @@ songs: [
     close-to-damaged,
     baby-defendant,
     own-me,
-    rose-colored-doubt,
+    dreams-of-then,
+    lovesick,       
     # loyal-orchid,
     # i-need-you,
     days-like-that,
     hey,
     eternity,
-    blurry-eternity,
-    dreams-of-then,
+    blurry-eternity,    
+    rose-colored-doubt,
 ]
 ---
