@@ -1,0 +1,3 @@
+---
+layout: prompt-generator
+---

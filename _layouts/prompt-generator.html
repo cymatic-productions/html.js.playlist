@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Music Visuals Generator</title>
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/style.prompt-generator.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+    <h1>🎼 AI Music Visuals Generator</h1>
+    <div class="container">
+        <label for="title">Track Title:</label>
+        <input type="text" id="title">
+
+        <label for="artist">Artist Name:</label>
+        <input type="text" id="artist">
+
+        <label for="genre">Genre:</label>
+        <input type="text" id="genre">
+
+        <label for="mood">Mood (e.g., dark, uplifting, eerie):</label>
+        <input type="text" id="mood">
+
+        <label for="tempo">Tempo (BPM or slow/medium/fast):</label>
+        <input type="text" id="tempo">
+
+        <label for="key">Key (if known):</label>
+        <input type="text" id="key">
+
+        <label for="instruments">Main Instruments (e.g., synths, guitars, orchestral strings):</label>
+        <input type="text" id="instruments">
+
+        <label for="keywords">Descriptive Keywords (e.g., cosmic, cyberpunk, dreamy):</label>
+        <input type="text" id="keywords">
+
+        <label for="visuals">Visual Inspirations (e.g., movie, game, artist, aesthetic):</label>
+        <input type="text" id="visuals">
+
+        <label for="lyrics">Lyrics or Story Themes (if applicable):</label>
+        <textarea id="lyrics"></textarea>
+
+        <button id="generate">Generate AI Prompts</button>
+
+        <div id="output"></div>
+    </div>
+
+    <script src="{{ site.baseurl }}/js/main/service.prompt-generator.js"></script>
+</body>
+</html>
