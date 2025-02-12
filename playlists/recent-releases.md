@@ -37,5 +37,6 @@ songs: [
     lovesick,
     # first-thirty,
     # the-opera,
+    alarming,
 ]
 ---
