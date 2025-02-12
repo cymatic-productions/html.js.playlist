@@ -38,5 +38,6 @@ songs: [
     # first-thirty,
     # the-opera,
     alarming,
+    jupiter-house,
 ]
 ---
