@@ -39,5 +39,6 @@ songs: [
     # the-opera,
     alarming,
     jupiter-house,
+    distant-lover,
 ]
 ---
