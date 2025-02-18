@@ -40,5 +40,6 @@ songs: [
     alarming,
     jupiter-house,
     distant-lover,
+    tongue-tied,
 ]
 ---
