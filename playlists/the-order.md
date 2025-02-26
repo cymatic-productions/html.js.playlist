@@ -17,6 +17,7 @@ songs: [
     baby-defendant,
     own-me,
     dreams-of-then,
+    think-about-you,
     tongue-tied,
     distant-lover,
     lovesick,       

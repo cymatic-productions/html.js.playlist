@@ -41,5 +41,6 @@ songs: [
     jupiter-house,
     distant-lover,
     tongue-tied,
+    think-about-you,
 ]
 ---
