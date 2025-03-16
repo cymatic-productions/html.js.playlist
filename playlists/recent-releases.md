@@ -42,5 +42,6 @@ songs: [
     distant-lover,
     tongue-tied,
     think-about-you,
+    palm-pads,
 ]
 ---
