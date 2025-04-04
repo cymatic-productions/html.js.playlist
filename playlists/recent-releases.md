@@ -39,9 +39,10 @@ songs: [
     # the-opera,
     alarming,
     jupiter-house,
-    distant-lover,
+    distant-lover,    
     tongue-tied,
     think-about-you,
     palm-pads,
+    love-rain,
 ]
 ---
