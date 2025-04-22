@@ -16,9 +16,12 @@ songs: [
     close-to-damaged,
     baby-defendant,
     own-me,
+    hook-drop,
+    bass-knock,
     dreams-of-then,
     think-about-you,
-    love-rain,
+    love-rain,    
+    poppa-remaster
     tongue-tied,
     distant-lover,
     lovesick,
