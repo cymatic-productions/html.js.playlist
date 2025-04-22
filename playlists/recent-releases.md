@@ -44,6 +44,7 @@ songs: [
     think-about-you,
     palm-pads,
     love-rain,
-    bass-knock
+    bass-knock,
+    poppa-remaster
 ]
 ---
