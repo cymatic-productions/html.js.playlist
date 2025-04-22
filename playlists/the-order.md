@@ -20,8 +20,9 @@ songs: [
     bass-knock,
     dreams-of-then,
     think-about-you,
-    love-rain,    
-    poppa-remaster
+    love-rain,
+    poppa-remaster,
+    poppa-reprise,
     tongue-tied,
     distant-lover,
     lovesick,

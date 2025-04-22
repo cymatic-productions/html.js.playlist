@@ -45,6 +45,7 @@ songs: [
     palm-pads,
     love-rain,
     bass-knock,
-    poppa-remaster
+    poppa-remaster,
+    poppa-reprise,
 ]
 ---
