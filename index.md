@@ -8,6 +8,7 @@ playlists: [
     # the-product,
     the-order,
     recent-releases,
+    flood-features,
     # under-development
 ]
 ---
