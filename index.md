@@ -10,7 +10,7 @@ playlists: [
     the-pulse,
     the-refinement,
     # flood-features,
-    recent-releases,
+    # recent-releases,
     # under-development
 ]
 ---
