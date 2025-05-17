@@ -1,6 +1,6 @@
 ---
 layout: playlist
-title: "The Current"
+title: "The Pulse"
 startDate: 2024
 endDate: under development
 songs: [
@@ -11,5 +11,9 @@ songs: [
     i-need-you,
     candy-rain,    
     love-rain,
+    tongue-tied,
+    distant-lover,
+    poppa-remaster,
+    poppa-reprise,
 ]
 ---
