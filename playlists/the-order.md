@@ -16,7 +16,7 @@ songs: [
     close-to-damaged,
     baby-defendant,
     own-me,
-    hook-drop,
+    hookdrop,
     bass-knock,
     dreams-of-then,
     think-about-you,
