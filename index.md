@@ -7,8 +7,9 @@ playlists: [
     the-prototype,
     # the-product,
     the-order,
-    recent-releases,
+    the-pulse,
     flood-features,
+    recent-releases,
     # under-development
 ]
 ---
