@@ -25,6 +25,7 @@ songs: [
     poppa-reprise,
     tongue-tied,
     distant-lover,
+    cynth,
     lovesick,
     # loyal-orchid,
     # i-need-you,

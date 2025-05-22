@@ -15,5 +15,6 @@ songs: [
     distant-lover,
     poppa-remaster,
     poppa-reprise,
+    cynth
 ]
 ---

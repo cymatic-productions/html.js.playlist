@@ -47,5 +47,6 @@ songs: [
     bass-knock,
     poppa-remaster,
     poppa-reprise,
+    cynth,
 ]
 ---
