@@ -20,6 +20,7 @@ songs: [
     bass-knock,
     dreams-of-then,
     think-about-you,
+    cynth,
     love-rain,
     poppa-remaster,
     poppa-reprise,
