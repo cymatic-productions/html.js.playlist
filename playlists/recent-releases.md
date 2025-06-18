@@ -48,5 +48,6 @@ songs: [
     poppa-remaster,
     poppa-reprise,
     cynth,
+    poppa-reprise2,
 ]
 ---
