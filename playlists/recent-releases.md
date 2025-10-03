@@ -49,5 +49,6 @@ songs: [
     poppa-reprise,
     cynth,
     poppa-reprise2,
+    astro-houston-pad
 ]
 ---
