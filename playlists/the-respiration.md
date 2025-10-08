@@ -12,5 +12,6 @@ songs: [
     rose-colored-doubt,
     eternity,
     blurry-eternity,
+    alarming,
 ]
 ---
