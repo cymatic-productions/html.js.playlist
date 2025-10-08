@@ -1,6 +1,6 @@
 ---
 layout: playlist
-title: "The Pulse"
+title: "The Respiration"
 startDate: 2025
 endDate: under development
 songs: [
