@@ -8,6 +8,7 @@ playlists: [
     # the-product,
     # the-order,
     the-pulse,
+    the-respiration,
     the-unrefined,
     # flood-features,
     # recent-releases,
