@@ -22,5 +22,7 @@ songs: [
     loyal-orchid,
     i-need-you,
     candy-rain,
+    mac-guitar,
+    kirby-one,
 ]
 ---
