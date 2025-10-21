@@ -12,6 +12,7 @@ songs: [
     rose-colored-doubt,
     her-echoes,
     no-doubt-love,
+    starlight-chilla,
     eternity,
     blurry-eternity,
     alarming,

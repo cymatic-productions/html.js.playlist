@@ -54,5 +54,6 @@ songs: [
     landshark,
     no-doubt-love,
     her-echoes,
+    starlight-chilla,
 ]
 ---
