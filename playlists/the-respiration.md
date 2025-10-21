@@ -10,6 +10,8 @@ songs: [
     lovesick,
     all-i-ever-want,
     rose-colored-doubt,
+    her-echoes,
+    no-doubt-love,
     eternity,
     blurry-eternity,
     alarming,

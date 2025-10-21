@@ -52,6 +52,7 @@ songs: [
     astro-houston-pad,
     myths-vocal,
     landshark,
-    no-doubt-love
+    no-doubt-love,
+    her-echoes,
 ]
 ---
