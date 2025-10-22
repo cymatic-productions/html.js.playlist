@@ -5,13 +5,11 @@ startDate: 2025
 endDate: under development
 songs: [
     days-like-that,
-    baby-defendant,
-    own-me,
+    no-doubt-love,
     lovesick,
     all-i-ever-want,
     rose-colored-doubt,
     her-echoes,
-    no-doubt-love,
     starlight-chilla,
     eternity,
     blurry-eternity,
