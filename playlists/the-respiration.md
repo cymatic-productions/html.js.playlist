@@ -11,8 +11,6 @@ songs: [
     rose-colored-doubt,
     her-echoes,
     starlight-chilla,
-    eternity,
     blurry-eternity,
-    alarming,
 ]
 ---
