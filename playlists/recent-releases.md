@@ -55,5 +55,6 @@ songs: [
     no-doubt-love,
     her-echoes,
     starlight-chilla,
+    thick-saint,
 ]
 ---
