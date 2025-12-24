@@ -56,5 +56,7 @@ songs: [
     her-echoes,
     starlight-chilla,
     thick-saint,
+    13-shapes,
+    vintage-orchid
 ]
 ---
