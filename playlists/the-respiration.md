@@ -14,5 +14,6 @@ songs: [
     thick-saint,
     starlight-chilla,
     blurry-eternity,
+    vintage-orchid,
 ]
 ---
