@@ -136,7 +136,8 @@ for md_file in "$playlist_dir"/*.md; do
     echo ""
     echo "📂 Processing category: $category"
 
-    category_path="$target_dir/$category"
+    # place each playlist under target/playlist/<playlist-name>
+    category_path="$target_dir/playlist/$category"
     mkdir -p "$category_path"
 
     # Extract song list using grep/sed/awk (assumes YAML-style 'songs: [ ... ]' format)
