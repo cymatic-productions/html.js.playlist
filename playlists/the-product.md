@@ -1,10 +1,15 @@
 ---
-layout: manual-playlist
-title: "The Algorhythm 3: The Product"
-startDate: 2020
-endDate: under development
+layout: playlist
+title: "The Algorhythm 2: The Prototype"
+startDate: 2024
+endDate: 2025
 songs: [
-    https://github.com/cymatic-productions/mixcraft.hookdrop/raw/master/hookdrop.mp3,
-    https://github.com/cymatic-productions/mixcraft.iTriumph/raw/master/iTriumph.vocals.mp3,
+    buried-escalade,
+    damp,
+    bass-and-piano,
+    codes-vocal,
+    astro-houston-pad, 
+    cymaprodz,
+    her-echoes,
 ]
 ---
