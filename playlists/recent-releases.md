@@ -58,6 +58,7 @@ songs: [
     starlight-chilla,
     thick-saint,
     13-shapes,
-    vintage-orchid
+    vintage-orchid,
+    avarice
 ]
 ---
