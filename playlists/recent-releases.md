@@ -59,6 +59,7 @@ songs: [
     thick-saint,
     13-shapes,
     vintage-orchid,
-    avarice
+    avarice,
+    quick-synth
 ]
 ---
