@@ -1,133 +1,173 @@
 :root {
-    --background-color: #0e1116;
-    --text-color: #ffffff;
-    --container-bg-color: #1e2228;
-    --box-shadow-color: rgba(0, 0, 0, 0.5);
-    --h1-color: #00ff95;
-    --h2-color: #22c7b9;
-    --h3-color: #007ba1;
-    --button-bg-color: #007c42;
-    --button-hover-color: rgba(0, 255, 153, 0.679);
-    --list-marker-color: rgb(0, 242, 255);
-    --list-text-color: #333;
-    --playing-bg-color: #0092b3;
-    --link-color: #39ff14;
-    --link-hover-color: #00ff00;
-    --video-border-color: #22c7b9;
+    --winamp-dark: #000420;
+    --winamp-gray: #404040;
+    --winamp-light-gray: #c0c0c0;
+    --winamp-cyan: #00ffff;
+    --winamp-teal: #0080ff;
+    --winamp-highlight: #ffffff;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: var(--background-color);
-    color: var(--text-color);
+    font-family: 'MS Sans Serif', Arial, sans-serif;
+    background-color: var(--winamp-dark);
+    color: var(--winamp-light-gray);
     margin: 0;
-    padding: 0;
+    padding: 15px;
 }
 
 .container {
     max-width: 600px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: var(--container-bg-color);
-    border-radius: 8px;
-    box-shadow: 0 0 10px var(--box-shadow-color);
-}
-
-p {
-    text-align: center;
-    color: var(--text-color);
+    margin: 20px auto;
+    background: linear-gradient(180deg, #4a4a4a 0%, #2a2a2a 100%);
+    border: 3px solid;
+    border-color: #dfdfdf #808080 #808080 #dfdfdf;
+    padding: 8px;
+    box-shadow: inset 1px 1px 0 #ffffff, inset -1px -1px 0 #000000;
+    font-size: 13px;
 }
 
 h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--winamp-cyan);
     text-align: center;
-    color: var(--h1-color);
+    margin: 10px 0;
+    text-shadow: 1px 1px 0 #000000;
 }
 
 h2 {
+    font-size: 18px;
+    color: var(--winamp-teal);
     text-align: center;
-    color: var(--h2-color);
+    margin: 8px 0;
 }
 
 h3 {
+    font-size: 14px;
+    color: var(--winamp-light-gray);
     text-align: center;
-    color: var(--h3-color);
+    margin: 5px 0;
+}
+
+#audioPlayer, #videoPlayer {
+    width: 100%;
+    display: block;
+    margin: 10px 0;
+    background-color: var(--winamp-gray);
+    border: 1px solid;
+    border-color: #808080 #dfdfdf #dfdfdf #808080;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+#videoPlayer {
+    height: auto;
+    min-height: 300px;
 }
 
 #audioPlayer {
-    width: 100%;
-    margin-bottom: 20px;
+    height: 60px;
+}
+
+/* Ensure native HTML5 controls are properly sized */
+#audioPlayer::-webkit-media-controls,
+#videoPlayer::-webkit-media-controls {
+    z-index: 10;
 }
 
 .playlist {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 2px;
+    margin: 10px 0;
+    background-color: var(--winamp-dark);
+    border: 1px inset #000000;
+    padding: 4px;
+    max-height: 400px;
+    overflow-y: auto;
+    position: relative;
+    z-index: 1;
 }
 
 button {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: var(--button-bg-color);
-    color: var(--text-color);
-    border: none;
-    border-radius: 4px;
+    padding: 8px 10px;
+    font-size: 13px;
+    background: linear-gradient(180deg, #c0c0c0 0%, #808080 100%);
+    color: #000000;
+    border: 1px solid;
+    border-color: #dfdfdf #808080 #808080 #dfdfdf;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    text-align: left;
+    transition: none;
+    min-height: 32px;
+    position: relative;
+    z-index: 2;
 }
 
 button:hover {
-    background-color: var(--button-hover-color);
+    background: linear-gradient(180deg, #dfdfdf 0%, #a0a0a0 100%);
+}
+
+button:active, button.playing {
+    background: linear-gradient(180deg, #808080 0%, #c0c0c0 100%);
+    border-color: #808080 #dfdfdf #dfdfdf #808080;
+    color: var(--winamp-cyan);
 }
 
 button:focus {
-    outline: none;
+    outline: 1px dotted var(--winamp-teal);
+    outline-offset: -2px;
 }
 
-ul {
-    list-style-type: decimal; /* Bullet style */
-    margin-bottom: 20px; /* Add space between lists */
-}
-
-li::marker {
-    color: var(--list-marker-color);
-}
-
-li {
-    font-size: 16px;
-    line-height: 1.6;
-    margin-bottom: 5px; /* Add space between list items */
-    color: var(--list-text-color); /* Text color */
-}
-
-.playing {
-    background-color: var(--playing-bg-color);
-}
-
-ul ul {
-    list-style-type: circle; /* Nested bullet style */
-    margin-top: 5px; /* Add space between nested lists */
-}
-
-ul ul li {
-    margin-left: 20px; /* Indent nested list items */
+p {
+    text-align: center;
+    color: var(--winamp-light-gray);
+    font-size: 13px;
+    margin: 15px 0;
 }
 
 a {
-    color: var(--link-color); /* Link color */
-    text-decoration: none; /* Remove underline */
-    transition: color 0.3s ease; /* Smooth color transition on hover */
+    color: var(--winamp-cyan);
+    text-decoration: none;
 }
 
 a:hover {
-    color: var(--link-hover-color); /* Brighter link color on hover */
+    color: var(--winamp-highlight);
+    text-decoration: underline;
 }
 
-#videoPlayer {
-    width: 100%; /* Make the video player take the full width of its container */
-    max-width: 600px; /* Limit the maximum width to match the container */
-    height: auto; /* Maintain the aspect ratio of the video */
-    margin-bottom: 20px; /* Add spacing below the video player */
-    border: 2px solid var(--video-border-color); /* Add a border for better visibility */
-    border-radius: 8px; /* Match the rounded corners of the container */
-    box-shadow: 0 4px 8px var(--box-shadow-color); /* Add a shadow for a polished look */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+li {
+    padding: 10px 12px;
+    font-size: 13px;
+    border-bottom: 1px solid #303030;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+/* Scrollbar styling for Windows 95/98 appearance */
+.playlist::-webkit-scrollbar {
+    width: 20px;
+}
+
+.playlist::-webkit-scrollbar-track {
+    background: var(--winamp-gray);
+    border: 1px inset #000000;
+}
+
+.playlist::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #c0c0c0 0%, #808080 100%);
+    border: 1px solid;
+    border-color: #dfdfdf #808080 #808080 #dfdfdf;
+}
+
+.playlist::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #dfdfdf 0%, #a0a0a0 100%);
 }
