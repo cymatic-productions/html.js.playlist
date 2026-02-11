@@ -60,6 +60,7 @@ songs: [
     13-shapes,
     vintage-orchid,
     avarice,
-    quick-synth
+    quick-synth,
+    lopez-vinyl,
 ]
 ---
