@@ -62,5 +62,6 @@ songs: [
     avarice,
     quick-synth,
     lopez-vinyl,
+    forgotten-place
 ]
 ---
