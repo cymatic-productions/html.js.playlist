@@ -11,7 +11,7 @@ playlists: [
     the-respiration,
     the-unrefined,
     # flood-features,
-    # recent-releases,
+    recent-releases,
     # under-development
 ]
 ---
